@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drum Lab</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="stage">
+      <header>
+        <div>
+          <p class="eyebrow">Simulador de batería</p>
+          <h1>Drum Lab</h1>
+        </div>
+        <p class="hint">Toca pads grandes o usa las letras A‑K en teclado.</p>
+      </header>
+      <section class="kit" aria-label="Pads de batería">
+        <button class="pad" data-drum="kick" aria-label="Bombo (tecla A)">Kick<br /><span>A</span></button>
+        <button class="pad" data-drum="snare" aria-label="Caja (tecla S)">Snare<br /><span>S</span></button>
+        <button class="pad" data-drum="hat" aria-label="Hi-hat (tecla D)">Hi-hat<br /><span>D</span></button>
+        <button class="pad" data-drum="tom" aria-label="Tom alto (tecla F)">Tom 1<br /><span>F</span></button>
+        <button class="pad" data-drum="floor" aria-label="Floor tom (tecla G)">Floor<br /><span>G</span></button>
+        <button class="pad" data-drum="clap" aria-label="Clap (tecla H)">Clap<br /><span>H</span></button>
+        <button class="pad" data-drum="shaker" aria-label="Shaker (tecla J)">Shaker<br /><span>J</span></button>
+        <button class="pad" data-drum="snap" aria-label="Snap (tecla K)">Snap<br /><span>K</span></button>
+      </section>
+      <p class="info">Cada pad mantiene un rebote suave para darte respuesta táctil real. Ideal para móviles horizontales.</p>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
